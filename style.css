@@ -1,0 +1,192 @@
+/*font*/
+@font-face{
+    font-family: 'Montserrat', sans-serif;
+    src: url('https://fonts.google.com/specimen/Montserrat');
+}
+@font-face{
+    font-family:'Fraunces',serif;
+    src: url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+    
+}
+@media all and (max-width: 600px){
+
+   #main img {
+    max-width:280px;
+   }
+    #main{  
+        flex:1;      
+        flex-direction:column !important;
+        max-width:280px !important;
+        min-height:450px !important; 
+        }
+    #main .desktop{  
+        flex:1 !important;      
+        border-radius:10px 10px 0px 0px !important ;
+    }
+    #perfume{
+        font-size:0.6em !important;
+        margin-top:0px !important;
+
+        }
+   #droite{    
+    margin:15px !important;   
+    
+    }
+    #gabrielle{
+        font-size:1.6em !important;
+        margin-top:10px !important;
+        margin-bottom:10px !important;
+       }
+    #text{
+        font-size:0.85em !important;
+        margin-top:0px !important;
+        margin-bottom:5px !important;
+        }
+    #prix{
+        margin-top:10px !important;
+        margin-bottom:10px !important;;
+        }
+    #new{
+        font-size:1.6em !important;
+    }
+    .bouton{     
+        margin: 0px 10px 40px 10px;
+        min-height:25px; 
+        }
+    #bouton{
+        position:absolute;
+        left:50px !important;
+        top:0px !important;
+        margin-top:8px; 
+     }
+     #bouton_text{
+         position:absolute; 
+         margin:6px;
+         right:70px; 
+         font-family:'Montserrat',sans-serif;     
+         font-weight:700;
+         font-size:0.9em;
+         color:white;
+     
+     }
+    
+}
+body{
+    background-color:hsl(30, 38%, 92%);
+}
+#bloc_page{
+    width:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;    
+}
+#main{    
+    position:absolute;
+    top:50%;
+    transform:translate(0,-50%);    
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    background-color:hsl(0, 0%, 100%);
+    width:600px;
+    height:450px;    
+    border-radius:10px;
+}
+#droite{
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    justify-content:space-evenly; 
+    flex:1;
+    gap:0px;
+    margin:25px;
+    }
+#perfume, #text,#second{
+    font-family:'Montserrat',sans-serif;
+    font-weight:500;
+    color:hsl(228, 12%, 48%);
+    }
+#perfume {
+    flex:1;
+    padding-top:0px;
+    padding-bottom:0px; 
+    margin-bottom:0px;    
+    text-transform:uppercase;
+    color:hsl(228, 12%, 48%);
+    font-size:0.8em;
+    letter-spacing:0.4em;       
+}
+#gabrielle{
+    flex:1;
+    margin:0px 0px 20px 0px;
+    font-family:'Fraunces',serif;
+    color:hsl(212, 21%, 14%);
+    font-size:2.1em;
+    font-weight:bold;
+    line-height:1em;      
+}
+#text{
+    flex:1;
+    margin-top:5px;
+    margin-bottom:-10px;
+    line-height:1.5em;    
+    font-size:0.95em;    
+    text-align:left;
+}
+#main .desktop{
+    flex:1;
+    width:300px;    
+    border-radius:10px 0px 0px 10px;
+}
+
+#prix{  
+    margin:20px 0px 20px 0px;  
+    display:flex;
+    flex:1;
+    flex-direction:row;
+    justify-content:left;
+    align-items:center;
+    gap:20px; 
+      
+}
+#new{
+    margin:0px;
+    font-family:'Fraunces',serif;
+    font-weight:700;
+    font-size:2.0em;  
+    color:#3d8168;     
+}
+#second{    
+    font-size:0.8em;     
+    text-decoration:line-through;    
+}
+
+.bouton{        
+    flex:1;
+    padding-bottom:10px;
+    position:relative;
+    align-items:center;
+    border-radius:5px;    
+    background-color:#3d8168;
+}
+#bouton{
+   position:absolute;
+   left:80px;
+   top:5px;      
+}
+#bouton_text{
+    position:absolute; 
+    right:70px; 
+    bottom:5px;
+    font-family:'Montserrat',sans-serif;     
+    font-weight:700;
+    font-size:0.9em;
+    color:white;
+
+}
+
+.bouton:hover{
+    background-color:#235140;
+}
+
+
