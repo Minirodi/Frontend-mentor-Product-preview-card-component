@@ -1,7 +1,7 @@
 
 
 - Solution URL: (https://github.com/Minirodi/Frontend-mentor-Product-preview-card-component))
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://minirodi.github.io/Frontend-mentor-Product-preview-card-component/)
 
 
 ### Built with
